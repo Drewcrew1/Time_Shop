@@ -1,0 +1,185 @@
+body, html {
+  margin: 0;
+}
+
+/* media Queries */
+@media (max-width: 500px) {
+ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+nav {
+  background-color: lightblue;
+  padding: 3px;
+  width: 100%;
+}
+.leftBox{
+  display: flex;
+}
+.leftBox img {
+  margin-top: 15%;
+  max-width: 35%;
+  min-width: 34%;
+  max-height: 350px;
+  border: 2px solid black;
+}
+.checkoutBox {
+  background-color: pink;
+  width: 100%;
+  height: 300px;
+}
+.bio {
+  padding: 8px;
+  text-indent: 10px;
+}
+.specs{
+  text-indent: 0;
+}
+.checkoutBox {
+  text-align: center;
+  height: 120px;
+}
+
+
+}
+@media (min-width: 500px) {
+
+}
+
+
+@media (min-width: 750px) {
+  .checkoutBox {
+    position: absolute;
+    height: 32vh;
+    width: 25vw;
+    background-color: lightgrey;
+    right: 0;
+    top: 100;
+    z-index: 1;
+    text-align: center;
+    font-size:1.3em;
+    text-shadow: 1px 1px 1px;
+  }
+}
+
+
+
+@media (min-width: 1050px) {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: underline;
+  }
+  nav {
+    background-color: lightblue;
+    padding: 3px;
+  }
+  #pageContainer {
+    /* background-color: yellow; */
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    background-color: #E0E8EB;
+  }
+  /* LowerBox Pictures */
+  .lowerBox {
+    position: absolute;
+    height: 55vh;
+    width: 45vw;
+    background: url('hydroconquest1.jpg') no-repeat;
+    background-position: top right;
+    background-size: cover;
+    bottom:0;
+    right: 0;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+  }
+  .lowerBoxPelagos {
+    position: absolute;
+    height: 55vh;
+    width: 45vw;
+    background: url('Pelagos2.jpg') no-repeat;
+    background-position: top right;
+    background-size: cover;
+    bottom:0;
+    right: 0;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+  }
+  .lowerBoxYacht {
+    position: absolute;
+    height: 55vh;
+    width: 45vw;
+    background: url('yachtmaster2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    bottom:0;
+    right: 0;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+  }
+  .leftBox {
+    position: absolute;
+    height: 91vh;
+    width: 65vw;
+    display: flex;
+    background-color: #E0E8EB;
+  }
+  .checkoutBox {
+    position: absolute;
+    height: 35.5vh;
+    width: 25vw;
+    background-color: lightgrey;
+    right: 0;
+    top: 100;
+    z-index: 100;
+    text-align: center;
+    font-size:1.3em;
+    text-shadow: 1px 1px 1px;
+  }
+  .leftBox img {
+    height: 100%;
+
+  }
+  .pelimg img {
+    width: 20vw;
+    height: 75vh;
+  }
+  .yachtimg img {
+    width: 25vw;
+    height: 85vh;
+    margin-left: -25px;
+    margin-right: -20px;
+  }
+  .bio {
+  text-align: center;
+  line-height: 25px;
+  font-weight: 100;
+  font-family:  'Oxygen', sans-serif;
+  }
+  .specs {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 40px;
+  }
+  .watchSpecs {
+    text-decoration: underline;
+  }
+  li {
+    font-family: 'Oxygen', sans-serif;
+  }
+  h2 {
+  font-family: 'Comfortaa', cursive;
+  }
+  .cart {
+    width: 100%;
+  }
+  .cart h1, .cart h3 {
+    text-align: center;
+  }
+}
