@@ -8,6 +8,6 @@ hydroWatch.addEventListener("click", function(){
     let nodeLi = document.createElement("li");
     let textnode = document.createTextNode("HydroConquest");
     nodeLi.appendChild(textnode);
-    // cartItems.appendChild(nodeLi);
+    cartItems.appendChild(nodeLi);
 
 });
